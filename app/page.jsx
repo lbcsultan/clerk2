@@ -44,13 +44,19 @@ export default function Home() {
       </div>
 
       <div className="bg-gray-100 p-4 m-4 rounded-lg mb-4">
-        <Link href="#" className="text-xl text-blue-700 font-bold">
+        <Link
+          href="https://github.com/lbcsultan/clerk2"
+          className="text-xl text-blue-700 font-bold"
+        >
           Github repository
         </Link>
       </div>
 
       <div className="bg-gray-100 p-4 m-4 rounded-lg mb-4">
-        <Link href="#" className="text-xl text-blue-700 font-bold">
+        <Link
+          href="https://clerk2-two.vercel.app/"
+          className="text-xl text-blue-700 font-bold"
+        >
           Web service at vercel.com
         </Link>
       </div>
